@@ -1,0 +1,88 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f2f2f2;
+    margin: 0;
+}
+
+.titulo {
+    text-align: center;
+    color: #333;
+    border-bottom: 2px solid #333;
+    padding: 20px;
+}
+
+.main-content {
+    max-width: 600px;
+    margin: 20px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(17, 157, 167);
+}
+
+.form-reg {
+    width: 100%;
+}
+
+.form-title-row {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.form-row {
+    margin-bottom: 15px;
+    transition: border-color 1s ease-in-out;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    color: #333;
+}
+
+input[type="text"],
+select {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    transition: border-color 1s ease-in-out;
+    display: block;
+    
+}
+
+select {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    background-color: #fff;
+    color: #333;
+}
+
+input[type="submit"],
+input[type="reset"] {
+    background-color: #4caf50;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 1s ease-in-out;
+}
+
+input[type="submit"]:hover,
+input[type="reset"]:hover {
+    background-color: #45a049;
+}
+
+.form-row:focus-within {
+    border-color: #66afe9; /* Cambia el color del borde cuando la caja está enfocada o contiene datos */
+}
+
+input[type="text"]:focus,
+select:focus {
+    border-color: #66afe9; /* Cambia el color del borde cuando la caja está enfocada */
+}
+
+
